@@ -1,0 +1,19 @@
+O sitema deve contar com três opreaçãoes principais
+
+* Operação de depósito: Deve ser possível depositar valores positivos 
+para a minha conta bancária. A v1 do projeto trrabalha apenas com um u-
+suário, dessa forma não precisamos nos preocupar em identificara qual
+é o númedo da agência e conta bancária. Todos os depositos devem ser
+armazenados em uma variável e exibidos na operação extrato
+
+
+* Operação de Saque: O sistema deve pertmirtir realziar 3 saques diários
+com limite máximo de R$500,00 por saque. Caso o usuário não tenha saldo
+na conta, o sistema deve exibir uma mensagem informando não será possivel
+sacar o dinheiro por falta de saldo. Todos os saques devem ser armazenados
+Todos os saques dever ser armazenados em uma variável e exibidos na operação
+extrato
+
+* Operação extrato: Essa operação deve listar todos os depositos e saques
+realizados na conta. No fim das listagens deve ser exibido o saldo atual da conta
+Os valores devem ser exibidos utilizando o formato R$ xxx.xx.
